@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="soaOrg">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Chef">
+      <firstName>Chef</firstName>
+      <lastName>Chef</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">Chef</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Régisseur">
+      <firstName>Régisseur</firstName>
+      <lastName>Régisseur</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">Régisseur</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Professeur">
+      <firstName>Professeur</firstName>
+      <lastName>Professeur</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">Professeur</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Professeur">
+      <displayName>Professeur</displayName>
+    </role>
+    <role name="Régisseur">
+      <displayName>Régisseur</displayName>
+    </role>
+    <role name="Chef">
+      <displayName>Chef</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="soaGroup">
+      <displayName>soaGroup</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Chef</userName>
+      <roleName>Chef</roleName>
+      <groupName>soaGroup</groupName>
+    </membership>
+    <membership>
+      <userName>Régisseur</userName>
+      <roleName>Régisseur</roleName>
+      <groupName>soaGroup</groupName>
+    </membership>
+    <membership>
+      <userName>Professeur</userName>
+      <roleName>Professeur</roleName>
+      <groupName>soaGroup</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
