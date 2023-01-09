@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="ACME" description="The ACME organization is an example of a typical hierarchy. It can be used for development.">
+  <customUserInfoDefinitions/>
   <users>
     <user userName="william.jobs">
       <firstName>William</firstName>
       <lastName>Jobs</lastName>
       <title>Mr</title>
       <jobTitle>Chief Executive Officer</jobTitle>
+      <personalData/>
       <professionalData>
         <email>william.jobs@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -31,6 +33,7 @@
       <title>Mrs</title>
       <jobTitle>Compensation specialist</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>april.sanchez@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -56,6 +59,7 @@
       <title>Mrs</title>
       <jobTitle>Human resource manager</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>helen.kelly@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -81,6 +85,7 @@
       <title>Mr</title>
       <jobTitle>Human resources benefits</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>walter.bates@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -106,6 +111,7 @@
       <title>Mr</title>
       <jobTitle>Chief Financial Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>zachary.williamson@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -131,6 +137,7 @@
       <title>Mr</title>
       <jobTitle>Financial controller</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>patrick.gardenier@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -156,6 +163,7 @@
       <title>Mrs</title>
       <jobTitle>Accountant</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>virginie.jomphe@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -181,6 +189,7 @@
       <title>Mr</title>
       <jobTitle>Financial planning manager</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>thorsten.hartmann@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -206,6 +215,7 @@
       <title>Mr</title>
       <jobTitle>Infrastucture specialist</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>jan.fisher@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -231,6 +241,7 @@
       <title>Mrs</title>
       <jobTitle>Product marketing manager</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>isabel.bleasdale@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -256,6 +267,7 @@
       <title>Mr</title>
       <jobTitle>Vice President of Marketing</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>favio.riviera@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -281,6 +293,7 @@
       <title>Mr</title>
       <jobTitle>Chief Technical Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>michael.morrison@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -306,6 +319,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>marc.marseau@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -331,6 +345,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>joseph.hovell@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -356,6 +371,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>mauro.zetticci@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -381,6 +397,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>thomas.wallis@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -406,6 +423,7 @@
       <title>Mrs</title>
       <jobTitle>Vice President of Sales</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>daniela.angelo@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -431,6 +449,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>anthony.nichols@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -456,6 +475,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>misa.kumagai@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -481,6 +501,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>norio.yamazaki@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -506,6 +527,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>giovanna.almeida@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -585,6 +607,45 @@
       <displayName>Services</displayName>
       <description>This group represents the services department of the ACME organization</description>
     </group>
+    <group name="GrpPLM">
+      <displayName>GrpPLM</displayName>
+    </group>
+    <group name="Ordonnateur" parentPath="/GrpPLM">
+      <displayName>Ordonnateur</displayName>
+    </group>
+    <group name="Chef de gouvernement" parentPath="/GrpPLM">
+      <displayName>Chef de gouvernement</displayName>
+    </group>
+    <group name="département ministériels et institution" parentPath="/GrpPLM">
+      <displayName>département ministériels et institution</displayName>
+    </group>
+    <group name="Commissions de programmation et de performance" parentPath="/GrpPLM">
+      <displayName>Commissions de programmation et de performance</displayName>
+    </group>
+    <group name="ministre chargé des finances" parentPath="/GrpPLM">
+      <displayName>ministre chargé des finances</displayName>
+    </group>
+    <group name="commissions des finances du Parlement" parentPath="/GrpPLM">
+      <displayName>commissions des finances du Parlement</displayName>
+    </group>
+    <group name="Ministère de l’EcoFinances et autres Ministères" parentPath="/GrpPLM">
+      <displayName>Ministère de l’EcoFinances et autres Ministères</displayName>
+    </group>
+    <group name="conseil des Ministres" parentPath="/GrpPLM">
+      <displayName>conseil des Ministres</displayName>
+    </group>
+    <group name="Conseil du Gouvernement" parentPath="/GrpPLM">
+      <displayName>Conseil du Gouvernement</displayName>
+    </group>
+    <group name="chambre des représentants" parentPath="/GrpPLM">
+      <displayName>chambre des représentants</displayName>
+    </group>
+    <group name="chambre des conseillers" parentPath="/GrpPLM">
+      <displayName>chambre des conseillers</displayName>
+    </group>
+    <group name="Etat" parentPath="/GrpPLM">
+      <displayName>Etat</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
@@ -607,8 +668,8 @@
     <membership>
       <userName>walter.bates</userName>
       <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/acme</groupParentPath>
+      <groupName>Ordonnateur</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
     </membership>
     <membership>
       <userName>zachary.williamson</userName>
@@ -625,14 +686,14 @@
     <membership>
       <userName>virginie.jomphe</userName>
       <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
+      <groupName>Chef de gouvernement</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
     </membership>
     <membership>
       <userName>thorsten.hartmann</userName>
       <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
+      <groupName>département ministériels et institution</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
     </membership>
     <membership>
       <userName>jan.fisher</userName>
@@ -711,6 +772,82 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>virginie.jomphe</userName>
+      <roleName>member</roleName>
+      <groupName>finance</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>GrpPLM</groupName>
+    </membership>
+    <membership>
+      <userName>thorsten.hartmann</userName>
+      <roleName>member</roleName>
+      <groupName>finance</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>thomas.wallis</userName>
+      <roleName>member</roleName>
+      <groupName>Commissions de programmation et de performance</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>patrick.gardenier</userName>
+      <roleName>member</roleName>
+      <groupName>ministre chargé des finances</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>norio.yamazaki</userName>
+      <roleName>member</roleName>
+      <groupName>commissions des finances du Parlement</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>misa.kumagai</userName>
+      <roleName>member</roleName>
+      <groupName>Ministère de l’EcoFinances et autres Ministères</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>michael.morrison</userName>
+      <roleName>member</roleName>
+      <groupName>conseil des Ministres</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>mauro.zetticci</userName>
+      <roleName>member</roleName>
+      <groupName>Conseil du Gouvernement</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>marc.marseau</userName>
+      <roleName>member</roleName>
+      <groupName>chambre des représentants</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>joseph.hovell</userName>
+      <roleName>member</roleName>
+      <groupName>chambre des conseillers</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
+    </membership>
+    <membership>
+      <userName>jan.fisher</userName>
+      <roleName>member</roleName>
+      <groupName>Etat</groupName>
+      <groupParentPath>/GrpPLM</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
