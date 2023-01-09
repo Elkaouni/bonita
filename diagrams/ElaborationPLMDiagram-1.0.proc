@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_ae_e4HQQEe2zsYbGoXS0Sg" name="ElaborationPLMDiagram" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_ae_e4XQQEe2zsYbGoXS0Sg" name="ElaborationPLM">
-      <elements xmi:type="process:Lane" xmi:id="_ae_e4nQQEe2zsYbGoXS0Sg" name="Ordonnateurs">
+      <elements xmi:type="process:Lane" xmi:id="_ae_e4nQQEe2zsYbGoXS0Sg" name="Ordonnateurs" actor="_o4gu4HQgEe2zsYbGoXS0Sg">
         <elements xmi:type="process:StartEvent" xmi:id="_ae_e43QQEe2zsYbGoXS0Sg" name="Start1" outgoing="_ae_e-HQQEe2zsYbGoXS0Sg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ae_e5HQQEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ae_e5XQQEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -54,7 +54,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_9ypjWHQcEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_I26GgHQTEe2zsYbGoXS0Sg" name="Chef du Gouvernement">
+      <elements xmi:type="process:Lane" xmi:id="_I26GgHQTEe2zsYbGoXS0Sg" name="Chef du Gouvernement" actor="_3ZkkkHQgEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_Q4QGwHQTEe2zsYbGoXS0Sg" name="réception des propositions des ordonnateurs" outgoing="_MsQK8HQUEe2zsYbGoXS0Sg" incoming="_PEHPoHQTEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_PD3YAXQTEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_PD3YAHQTEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -86,7 +86,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_tYl2m3QaEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_siqYUHQTEe2zsYbGoXS0Sg" name="départements ministériels et institution">
+      <elements xmi:type="process:Lane" xmi:id="_siqYUHQTEe2zsYbGoXS0Sg" name="départements ministériels et institution" actor="_8N4oIHQgEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_NoqI0HQUEe2zsYbGoXS0Sg" name="transfert les propositions des ordonnateurs au ministère chargé des finances" outgoing="_mdfe8HQVEe2zsYbGoXS0Sg" incoming="_MsQK8HQUEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Mr_FMXQUEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Mr_FMHQUEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -118,7 +118,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_L2SdO3QdEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_egAgcHQUEe2zsYbGoXS0Sg" name="Commissions de programmation et de performance">
+      <elements xmi:type="process:Lane" xmi:id="_egAgcHQUEe2zsYbGoXS0Sg" name="Commissions de programmation et de performance" actor="_yY0ngHQgEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_6viJ4HQXEe2zsYbGoXS0Sg" name="examen des propositions" outgoing="_t2qaAHQXEe2zsYbGoXS0Sg" incoming="_mdfe8HQVEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_mdUf0XQVEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_mdUf0HQVEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -135,7 +135,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_6viw-3QXEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_HsgokHQWEe2zsYbGoXS0Sg" name="ministre chargé des finances">
+      <elements xmi:type="process:Lane" xmi:id="_HsgokHQWEe2zsYbGoXS0Sg" name="ministre chargé des finances" actor="_K5A_0HQhEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_5IO04HQXEe2zsYbGoXS0Sg" name="exposition en Conseil du gouvernement, la programmation triennale des ressources et des charges de l'Etat" outgoing="_-sg80HQXEe2zsYbGoXS0Sg" incoming="_3NPu4HQXEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_3NEvwXQXEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_3NEvwHQXEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -197,7 +197,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_dV1kpXQaEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_8fziwHQZEe2zsYbGoXS0Sg" name="commissions des finances du Parlement">
+      <elements xmi:type="process:Lane" xmi:id="_8fziwHQZEe2zsYbGoXS0Sg" name="commissions des finances du Parlement" actor="_Po4BMHQhEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_IkVEkHQaEe2zsYbGoXS0Sg" name="exposition de l'évolution de l'économie nationale" outgoing="_J_FLUHQaEe2zsYbGoXS0Sg" incoming="_HVO0MHQaEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_HVCm8HQaEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_HVB_4HQaEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -229,7 +229,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_KnQlq3QaEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_b5_xYHQdEe2zsYbGoXS0Sg" name="Ministère de l’EcoFinances et autres Ministères">
+      <elements xmi:type="process:Lane" xmi:id="_b5_xYHQdEe2zsYbGoXS0Sg" name="Ministère de l’EcoFinances et autres Ministères" actor="_Uw2AkHQhEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_mD-SEHQdEe2zsYbGoXS0Sg" name="préparation d'une commissions budgétaires et arbitrage de la Phase d’élaboration et d’arbitrage" outgoing="_162rMHQdEe2zsYbGoXS0Sg" incoming="_kIHCUHQdEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_kH61EXQdEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_kH61EHQdEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -261,7 +261,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_3GrlK3QdEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="__m22cHQdEe2zsYbGoXS0Sg" name="conseil des Ministres&#xA;">
+      <elements xmi:type="process:Lane" xmi:id="__m22cHQdEe2zsYbGoXS0Sg" name="conseil des Ministres&#xA;" actor="_kCx5kHQhEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_HmN5sHQeEe2zsYbGoXS0Sg" name="délibération des orientations générales du PLF" outgoing="_SR3kEHQeEe2zsYbGoXS0Sg" incoming="_GZtDQHQeEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_GZkgYXQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_GZkgYHQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -278,8 +278,8 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_HmPH2nQeEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_OCdkYHQeEe2zsYbGoXS0Sg" name="Conseil du Gouvernement">
-        <elements xmi:type="process:Task" xmi:id="_TQNboHQeEe2zsYbGoXS0Sg" name=" adoption le PLF" outgoing="_UrV84HQeEe2zsYbGoXS0Sg" incoming="_SR3kEHQeEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
+      <elements xmi:type="process:Lane" xmi:id="_OCdkYHQeEe2zsYbGoXS0Sg" name="Conseil du Gouvernement" actor="_mXZAgHQhEe2zsYbGoXS0Sg">
+        <elements xmi:type="process:Task" xmi:id="_TQNboHQeEe2zsYbGoXS0Sg" name=" adoption le PLF " outgoing="_UrV84HQeEe2zsYbGoXS0Sg" incoming="_SR3kEHQeEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_SRsk8XQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_SRsk8HQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_SRsk8nQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -310,8 +310,8 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_eJ5slXQfEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_hUWr0HQeEe2zsYbGoXS0Sg" name="chambre des représentants">
-        <elements xmi:type="process:Task" xmi:id="_dnNPMHQfEe2zsYbGoXS0Sg" name="examen du PLF" outgoing="_idlvUHQfEe2zsYbGoXS0Sg" incoming="_kVJjUHQeEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
+      <elements xmi:type="process:Lane" xmi:id="_hUWr0HQeEe2zsYbGoXS0Sg" name="chambre des représentants" actor="_ABUBAHQiEe2zsYbGoXS0Sg">
+        <elements xmi:type="process:Task" xmi:id="_dnNPMHQfEe2zsYbGoXS0Sg" name="examen du PLF 1" outgoing="_idlvUHQfEe2zsYbGoXS0Sg" incoming="_kVJjUHQeEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_kVBAcXQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_kVBAcHQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_kVBAcnQeEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -326,7 +326,7 @@
           <contract xmi:type="process:Contract" xmi:id="_dnPEZHQfEe2zsYbGoXS0Sg"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_dnPEZ3QfEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_wW958HQfEe2zsYbGoXS0Sg" name="vote sur le PLF" incoming="_idlvUHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_wW958HQfEe2zsYbGoXS0Sg" name="vote sur le PLF 1" incoming="_idlvUHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_iddMcXQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_iddMcHQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_iddMcnQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -357,8 +357,8 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_9v4b2nQfEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_mvtEwHQfEe2zsYbGoXS0Sg" name="chambre des conseillers">
-        <elements xmi:type="process:Task" xmi:id="_vyjlUHQfEe2zsYbGoXS0Sg" name="examen du PLF" outgoing="_xEThEHQfEe2zsYbGoXS0Sg" incoming="_t7_sUHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
+      <elements xmi:type="process:Lane" xmi:id="_mvtEwHQfEe2zsYbGoXS0Sg" name="chambre des conseillers" actor="_Bk4FgHQiEe2zsYbGoXS0Sg">
+        <elements xmi:type="process:Task" xmi:id="_vyjlUHQfEe2zsYbGoXS0Sg" name="examen du PLF 2" outgoing="_xEThEHQfEe2zsYbGoXS0Sg" incoming="_t7_sUHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_t70tMXQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_t70tMHQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_t70tMnQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -373,7 +373,7 @@
           <contract xmi:type="process:Contract" xmi:id="_vykMaHQfEe2zsYbGoXS0Sg"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_vykMa3QfEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_yT12UHQfEe2zsYbGoXS0Sg" name="vote sur le PLF" outgoing="_2z9LgHQfEe2zsYbGoXS0Sg" incoming="_xEThEHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_yT12UHQfEe2zsYbGoXS0Sg" name="vote sur le PLF 2" outgoing="_2z9LgHQfEe2zsYbGoXS0Sg" incoming="_xEThEHQfEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_xEMMUXQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xEMMUHQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xEMMUnQfEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
@@ -389,7 +389,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_yT3EdXQfEe2zsYbGoXS0Sg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_BkJXoHQgEe2zsYbGoXS0Sg" name="Etat">
+      <elements xmi:type="process:Lane" xmi:id="_BkJXoHQgEe2zsYbGoXS0Sg" name="Etat" actor="_CyAnAHQiEe2zsYbGoXS0Sg">
         <elements xmi:type="process:Task" xmi:id="_Gm0AQHQgEe2zsYbGoXS0Sg" name="adoption finale du Projet de loi de Finance " outgoing="_JlU_0HQgEe2zsYbGoXS0Sg" incoming="_F3I20HQgEe2zsYbGoXS0Sg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_F2_s4XQgEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_F2_s4HQgEe2zsYbGoXS0Sg" name="" content="" returnTypeFixed="true"/>
